@@ -1,0 +1,39 @@
+body {
+  background-color: #000;
+  font-family: andale mono;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+a:link {
+  text-decoration: none;
+  color: pink;
+}
+
+a:visited {
+  text-decoration: none;
+  color: pink;
+}
+
+a:hover {
+  text-decoration: non;
+  color: magenta;
+}
+
+a:active {
+  text-decoration: none;
+  color: magenta;
+}
+
+.toggleFC {
+  color: pink;
+}
+
