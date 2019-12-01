@@ -1,4 +1,8 @@
 <html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://darkskyapp.github.io/skycons/skycons.js"></script>
+</head>
 <style>
 body {
 background-color: #000000;
@@ -11,5 +15,18 @@ text-align: center;
 <h1>Hello and Welcome to Austin Morley B's Page! </h1>
   <p>There is not much here but i will continue to update it</p>
 <img src="https://i.redd.it/qgvk45p43mk01.jpg" alt="Welcome!">
+
+  <h1>Weather Dashboard</h1>
+<p>For this to work make sure to turn Location Services On, i.e. Give browser permission to use your location.</p>
+
+<h3>
+  <span id="location"></span><br>
+  <span id="temp"></span>&deg;<span class="toggleFC">F</span><br>
+  <span id="conditions"></span><br>
+</h3>
+
+<canvas id="icon" width="128" height="128"></canvas>
+
+<h5>Powered by <a href="https://darksky.net/poweredby/">Dark Sky</a></h5>
 </body>
 </html>
